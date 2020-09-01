@@ -1,12 +1,12 @@
 pipeline {
     agent any
-
+    
+    env.JAVA_HOME = tool 'jdk14'
+    
     tools {
         jdk 'jdk14'
         maven 'maven3'
     }
-    
-    env.JAVA_HOME = tool 'jdk14'
     
     stages {
         stage('Install') {
