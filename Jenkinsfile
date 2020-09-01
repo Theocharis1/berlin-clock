@@ -4,9 +4,10 @@ pipeline {
     tools {
         jdk 'jdk14'
         maven 'maven3'
-        env.JAVA_HOME = tool 'jdk14'
     }
-
+    
+    env.JAVA_HOME = tool 'jdk14'
+    
     stages {
         stage('Install') {
             steps {
