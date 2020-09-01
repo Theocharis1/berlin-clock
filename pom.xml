@@ -20,8 +20,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <fork>true</fork>
-                    <executable>/var/jenkins_home/tools/hudson.model.JDK/jdk14/jdk-14.0.1/bin/javac</executable>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
